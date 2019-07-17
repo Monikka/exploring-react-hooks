@@ -1,6 +1,6 @@
 import React, { useState } from "react";
-import DataLoader from "./DataLoader";
-import DataLoaderUseEffect from "./DataLoaderUseEffect";
+import DataLoader from "./dataLoader";
+import DataLoaderUseEffect from "./dataLoaderUseEffect";
 
 export default function App() {
   const [buttonText, setButtonText] = useState("Click Me!!!");
